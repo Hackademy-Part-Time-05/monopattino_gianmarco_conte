@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Selfoworks 004</title>
+    <title>Sito monopattini</title>
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                      <a class="navbar-brand" href="#">
-                        <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-                        Bootstrap
-                      </a>
-                      <a class="nav-link" href="#">Homepage</a> 
-                      <a class="nav-link" href="#">Elenco</a> 
-                      <a class="nav-link" href="#">Monopattini</a> 
-                  </div>
-              </div>
-          </div>
+      <nav class="navbar navbar-expand-sm bg-dark">
+
+        <div class="container-fluid">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Homepage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Monopattini</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dettagli monopattini</a>
+            </li>
+          </ul>
+        </div>
+       </nav> 
       </nav>
     </header>
       <main>
