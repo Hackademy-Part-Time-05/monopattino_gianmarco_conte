@@ -1,39 +1,21 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<x-main>
+      <main class="h-100">
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 d-flex align-items-center">
+                    <div class="d-flex flex-column ">
+                <p class="text-center fw-bold p-5">Sostenibile, responsabile, rilassante, divertente. Traffico e inquinamento? Nemici giurati. L'elettricità da fonti rinnovabili: la nostra alleata. Insieme ai quadricipiti femorali. Bici e monopattini per noi vogliono dire Libertà. Ci piace vedere i ciclisti sorridersi, mentre gli automobilisti si insultano. Questa è la nostra filosofia.
+                </p>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Sito monopattini</title>
-</head>
-<body>
-    <header>
-      <nav class="navbar navbar-expand-sm bg-dark">
-
-        <div class="container-fluid">
-          <!-- Links -->
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Homepage</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Monopattini</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Dettagli monopattini</a>
-            </li>
-          </ul>
+               <button type="button" class="btn btn-dark btn-lg p-5"> <a href="{{route('list')}}">ACQUISTA UN MONOPATTINO ELETTRICO</a></button>
+            </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 p-5">
+                    <img src="https://www.sportoutdoor24.it/app/uploads/2019/09/monopattini-elettrici-milano-dove-andare-velocita.jpg" alt="immagine-welcome">
+                </div>
+            </div>
         </div>
-       </nav> 
-      </nav>
-    </header>
-      <main>
+     
       </main>
-    <footer>
-    <p>Sito sviluppato da (Gian Marco Conte)</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
-    </script>
-</body>
-</html>
+    
+    </x-main>
